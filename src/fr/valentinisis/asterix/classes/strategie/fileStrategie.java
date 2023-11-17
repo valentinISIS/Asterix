@@ -26,7 +26,10 @@ public class fileStrategie implements Strategie{
             gauloisDevant.perdreForce(mechantDevant.getForceCombat());
 
             if (gauloisDevant.getForce() == 0) flagGaulois++;
-            if (mechantDevant.getForceCombat() == 0) flagMechants++;
+            if (mechantDevant.getForceCombat() == 0) {
+                flagMechants++;
+                mechantDevant.recupererForce();
+            }
         }
 
         if (flagGaulois == ordreGaulois.size()) System.out.println("Les méchants ont enfin gagné !!!!");
