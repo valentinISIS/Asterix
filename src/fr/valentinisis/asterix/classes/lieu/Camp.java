@@ -33,7 +33,7 @@ public class Camp
     @Override
     public String toString(){
         String chaine = "Bienvenue dans le camp des romain: " + this.nom + "\n ";
-        chaine = chaine + "Le camp à pour chef: " + chef.getNom();
+        chaine = chaine + "Le camp à pour chef: " + chef.getNom() + "\n";
         for (Romain r: lesSoldats) {
             chaine = chaine + "   " + r.getNom() + "--> " +  r.getGrade() + "\n";
         }
