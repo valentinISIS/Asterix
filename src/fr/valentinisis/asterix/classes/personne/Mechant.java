@@ -1,14 +1,15 @@
 package fr.valentinisis.asterix.classes.personne;
 
 public class Mechant extends Personne  {
-private int ForceCombat;
-public Mechant(String nom ,int force ,int ForceCombat){
-    super(nom,force);
-    this.ForceCombat=ForceCombat;
-}
-    public int getForceCombat(){
-    return ForceCombat;
+    private int forceCombat;
+    public Mechant(String nom ,int force){
+        super(nom,force);
+        this.forceCombat = force;
     }
-//public void recupererForce() {
-      //  {}
+    public int getForceCombat(){
+        return forceCombat;
+    }
+    public void recupererForce() {
+        forceCombat = this.getForce();
+    }
 }
