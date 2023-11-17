@@ -1,5 +1,5 @@
 package fr.valentinisis.asterix.classes.personne;
-
+import java.util.Random;
 public class Druide extends Gaulois {
 
     private static final int VALEUR_MIN = 1;
@@ -13,12 +13,16 @@ public class Druide extends Gaulois {
     }
 
 
+    public void fabriquerPotion() {
+        // Logique pour fabriquer la potion
+        Random random = new Random();
+        int nouvellePotion = VALEUR_MIN + random.nextInt(VALEUR_MAX - VALEUR_MIN + 1);
+        this.potion = nouvellePotion;
 
-    public void boirePotion(int montant) {
-        this.potion += montant;
-        this.setForce(this.getForce() + montant);
-        System.out.println( getNom() + " boit une potion. Nouvelle force : " + getForce());
+        System.out.println("Le Druide a fabriqué une nouvelle potion. Nouvelle valeur de la potion : " + potion);
     }
+
+
     public void utiliserPotion(int nouvellePotion) {
         // Logique pour utiliser la potion
         if (nouvellePotion >= VALEUR_MIN && nouvellePotion <= VALEUR_MAX) {
