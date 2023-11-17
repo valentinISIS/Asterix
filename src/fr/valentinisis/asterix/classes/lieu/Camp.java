@@ -7,7 +7,7 @@ import java.security.InvalidParameterException;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Camp
+public class Camp implements ILieuMechant
 {
     private String nom;
     private Romain chef;

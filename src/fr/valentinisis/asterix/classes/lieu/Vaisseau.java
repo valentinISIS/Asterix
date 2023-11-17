@@ -6,7 +6,7 @@ import java.security.InvalidParameterException;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Vaisseau {
+public class Vaisseau implements ILieuMechant {
     private String nom;
     private Pirate chef;
     private Set<Pirate> lesEquipiers = new HashSet<>();
