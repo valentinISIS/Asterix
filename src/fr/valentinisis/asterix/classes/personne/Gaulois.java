@@ -23,6 +23,10 @@ public class Gaulois extends Personne{
         setForce(getForce() + montant);
         System.out.println(getNom() + " boit une potion. Nouvelle force : " + getForce());
     }
+
+    public void perdreForce(int montant){
+            setForce(Math.max(0, getForce()-montant));
     }
+}
 
 

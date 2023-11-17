@@ -12,4 +12,8 @@ public class Mechant extends Personne  {
     public void recupererForce() {
         forceCombat = this.getForce();
     }
+
+    public void perdreForce(int force){
+        forceCombat = Math.max(0, forceCombat - force);
+    }
 }

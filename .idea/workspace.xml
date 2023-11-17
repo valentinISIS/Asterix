@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3a12473-06a1-47f7-af82-e4e2668a8f08" name="Changes" comment="implémentation de la classe Village + son test associé">
+    <list default="true" id="e3a12473-06a1-47f7-af82-e4e2668a8f08" name="Changes" comment="Changements mineurs dans camp et vaisseau">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/lieu/Vaisseau.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/lieu/Vaisseau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/personne/Gaulois.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/personne/Gaulois.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/personne/Mechant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/personne/Mechant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/strategie/IStrategie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/strategie/fileStrategie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/strategie/fileStrategie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/strategie/lesPlusFortsDevantStrategie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/strategie/lesPlusFortsDevantStrategie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1700217638109</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="implémentation de la classe vaisseau + scenario de test">
+      <created>1700218544029</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1700218544029</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Changements mineurs dans camp et vaisseau">
+      <created>1700219412540</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700219412540</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +230,8 @@
     <MESSAGE value="Ajout du chef dans l'affichage du camp" />
     <MESSAGE value="correction de la classe Druide" />
     <MESSAGE value="implémentation de la classe Village + son test associé" />
-    <option name="LAST_COMMIT_MESSAGE" value="implémentation de la classe Village + son test associé" />
+    <MESSAGE value="implémentation de la classe vaisseau + scenario de test" />
+    <MESSAGE value="Changements mineurs dans camp et vaisseau" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changements mineurs dans camp et vaisseau" />
   </component>
 </project>
