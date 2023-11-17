@@ -12,6 +12,6 @@ public class Pirate  extends Personne {
     public String getPoste() {
         return poste;
     }
-
+//
 }
 
