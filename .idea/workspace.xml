@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3a12473-06a1-47f7-af82-e4e2668a8f08" name="Changes" comment="Update fileStrategie">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e3a12473-06a1-47f7-af82-e4e2668a8f08" name="Changes" comment="Update fileStrategie et lesPlusFortsDevantStrategie:&#10;--&gt; Dynamisation des collections">
       <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/strategie/lesPlusFortsDevantStrategie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/strategie/lesPlusFortsDevantStrategie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -236,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700820218729</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update fileStrategie et lesPlusFortsDevantStrategie:&#10;--&gt; Dynamisation des collections">
+      <created>1700821276029</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1700821276029</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,6 +272,7 @@
     <MESSAGE value="Ajout de Bataille et son implémentation + création d'un jeu de test" />
     <MESSAGE value="Modification Scenario Bataille" />
     <MESSAGE value="Update fileStrategie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update fileStrategie" />
+    <MESSAGE value="Update fileStrategie et lesPlusFortsDevantStrategie:&#10;--&gt; Dynamisation des collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update fileStrategie et lesPlusFortsDevantStrategie:&#10;--&gt; Dynamisation des collections" />
   </component>
 </project>

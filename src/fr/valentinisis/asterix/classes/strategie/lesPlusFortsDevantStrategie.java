@@ -14,7 +14,7 @@ public class lesPlusFortsDevantStrategie implements Strategie {
         Gaulois gauloisDevant;
         Mechant mechantDevant;
 
-        while (ordreMechant.size() > 0 && ordreGaulois.get("lesNuls").size() > 0 ){
+        while (ordreMechant.size() > 0 && ordreGaulois.get("lesNuls").size() > 0  && ordreGaulois.get("lesPlusForts").size() > 0 && ordreGaulois.get("lesForts").size() > 0 && ordreGaulois.get("lesMoyens").size() > 0){
 
             if (ordreGaulois.get("lesPlusForts").size() > 0) {
                 gauloisDevant = ordreGaulois.get("lesPlusForts").get(0);
