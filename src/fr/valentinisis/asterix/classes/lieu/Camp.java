@@ -1,6 +1,7 @@
 package fr.valentinisis.asterix.classes.lieu;
 
 import fr.valentinisis.asterix.classes.personne.Grade;
+import fr.valentinisis.asterix.classes.personne.Mechant;
 import fr.valentinisis.asterix.classes.personne.Romain;
 
 import java.security.InvalidParameterException;
@@ -40,8 +41,11 @@ public class Camp implements ILieuMechant
         return chaine;
     }
 
-    public Set<Romain> getLesSoldats() {
-        return lesSoldats;
+    @Override
+    public Set<Mechant> getCombattants() {
+        Set<Mechant> combattants = new HashSet<>();
+        combattants.addAll(lesSoldats);
+        return combattants;
     }
 
     public void setChef(Romain chef) {

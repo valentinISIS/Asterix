@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e3a12473-06a1-47f7-af82-e4e2668a8f08" name="Changes" comment="Changements mineurs dans camp et vaisseau">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/personne/Gaulois.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/personne/Gaulois.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/personne/Mechant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/personne/Mechant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/strategie/IStrategie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/strategie/fileStrategie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/strategie/fileStrategie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/strategie/lesPlusFortsDevantStrategie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/strategie/lesPlusFortsDevantStrategie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/Bataille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/Bataille.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/lieu/Camp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/lieu/Camp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/lieu/ILieuMechant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/lieu/ILieuMechant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/lieu/Vaisseau.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/lieu/Vaisseau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/personne/Pirate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/personne/Pirate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/main/ScenarioBataille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/main/ScenarioBataille.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +44,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\vbeaumel\IdeaProjects\Asterix" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ScenarioVaisseauPirate">
+  <component name="RunManager" selected="Application.ScenarioBataille">
+    <configuration name="ScenarioBataille" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.valentinisis.asterix.main.ScenarioBataille" />
+      <module name="Asterix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.valentinisis.asterix.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ScenarioCampRomain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.valentinisis.asterix.main.ScenarioCampRomain" />
       <module name="Asterix" />
@@ -99,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScenarioBataille" />
         <item itemvalue="Application.ScenarioVaisseauPirate" />
         <item itemvalue="Application.ScenarioVillageGaulois" />
         <item itemvalue="Application.ScenarioCampRomain" />
