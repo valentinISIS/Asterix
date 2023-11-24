@@ -8,6 +8,7 @@ import fr.valentinisis.asterix.classes.personne.Gaulois;
 import fr.valentinisis.asterix.classes.personne.Grade;
 import fr.valentinisis.asterix.classes.personne.Romain;
 import fr.valentinisis.asterix.classes.strategie.fileStrategie;
+import fr.valentinisis.asterix.classes.strategie.lesPlusFortsDevantStrategie;
 
 public class ScenarioBataille {
     public static void main(String[] args) {
@@ -16,13 +17,13 @@ public class ScenarioBataille {
         Gaulois agecanonix = new Gaulois("Agecanonix", 1, "retraité");
         Gaulois assurancetourix = new Gaulois("Assurancetourix", 1, "barde");
         Gaulois asterix = new Gaulois("Astérix", 1, "héros");
-        Gaulois obelix = new Gaulois("Obélix", 15, "tailleur de menhir");
+        Gaulois obelix = new Gaulois("Obélix", 5, "tailleur de menhir");
         Gaulois cetautomatix = new Gaulois("Cétautomatix", 1, "forgeron");
         Gaulois tragicomix = new Gaulois("Tragicomix", 1, "beau gosse");
-        Gaulois ordralbabétix = new Gaulois("Ordralbabétix", 1, "poissonier");
+        Gaulois ordralbabetix = new Gaulois("Ordralbabétix", 1, "poissonier");
         Gaulois falbala = new Gaulois("Falbala", 1, "fiancée");
         Druide panoramix = new Druide("Panoramix", 1);
-        Gaulois[] lesGaulois = {agecanonix, assurancetourix, asterix, obelix, cetautomatix, tragicomix, ordralbabétix, falbala};
+        Gaulois[] lesGaulois = {agecanonix, assurancetourix, asterix, obelix, cetautomatix, tragicomix, ordralbabetix, falbala};
 
         //Création du village
         Village irreductibleVillage = new Village("le Camp des irréductibles gaulois", abraracourcix, panoramix);
@@ -52,5 +53,7 @@ public class ScenarioBataille {
         Bataille b = new Bataille(irreductibleVillage, babaorum);
         // Stratégie de la file
         b.bagarre(new fileStrategie());
+        System.out.println("-------------------------------------");
+        b.bagarre(new lesPlusFortsDevantStrategie());
     }
 }

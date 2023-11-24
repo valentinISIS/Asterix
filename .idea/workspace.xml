@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3a12473-06a1-47f7-af82-e4e2668a8f08" name="Changes" comment="Changements mineurs dans camp et vaisseau">
+    <list default="true" id="e3a12473-06a1-47f7-af82-e4e2668a8f08" name="Changes" comment="Ajout de Bataille et son implémentation + création d'un jeu de test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/Bataille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/Bataille.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/lieu/Camp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/lieu/Camp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/lieu/ILieuMechant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/lieu/ILieuMechant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/lieu/Vaisseau.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/lieu/Vaisseau.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/personne/Pirate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/personne/Pirate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/main/ScenarioBataille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/main/ScenarioBataille.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700219412540</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Ajout de Bataille et son implémentation + création d'un jeu de test">
+      <created>1700813301212</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1700813301212</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +248,7 @@
     <MESSAGE value="implémentation de la classe Village + son test associé" />
     <MESSAGE value="implémentation de la classe vaisseau + scenario de test" />
     <MESSAGE value="Changements mineurs dans camp et vaisseau" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changements mineurs dans camp et vaisseau" />
+    <MESSAGE value="Ajout de Bataille et son implémentation + création d'un jeu de test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de Bataille et son implémentation + création d'un jeu de test" />
   </component>
 </project>

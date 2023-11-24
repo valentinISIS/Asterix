@@ -2,8 +2,8 @@ package fr.valentinisis.asterix.classes.personne;
 import java.util.Random;
 public class Druide extends Gaulois {
 
-    private static final int VALEUR_MIN = 1;
-    private static final int VALEUR_MAX =20 ;
+    private static final int VALEUR_MIN = 5;
+    private static final int VALEUR_MAX =10 ;
     private int potion = 0;
 
 
