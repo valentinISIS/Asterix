@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3a12473-06a1-47f7-af82-e4e2668a8f08" name="Changes" comment="Modification Scenario Bataille">
+    <list default="true" id="e3a12473-06a1-47f7-af82-e4e2668a8f08" name="Changes" comment="Update fileStrategie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/personne/Romain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/personne/Romain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/strategie/fileStrategie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/strategie/fileStrategie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/strategie/lesPlusFortsDevantStrategie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/valentinisis/asterix/classes/strategie/lesPlusFortsDevantStrategie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700816325507</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update fileStrategie">
+      <created>1700820218729</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1700820218729</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +265,7 @@
     <MESSAGE value="Changements mineurs dans camp et vaisseau" />
     <MESSAGE value="Ajout de Bataille et son implémentation + création d'un jeu de test" />
     <MESSAGE value="Modification Scenario Bataille" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification Scenario Bataille" />
+    <MESSAGE value="Update fileStrategie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update fileStrategie" />
   </component>
 </project>

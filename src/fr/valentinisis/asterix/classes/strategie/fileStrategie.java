@@ -18,7 +18,7 @@ public class fileStrategie implements Strategie{
         List<Gaulois> ordreGaulois = triGaulois(lesGaulois);
         TreeSet<Mechant> ordreMechant = triMechant(lesMechants);
 
-        while (flagGaulois < ordreGaulois.size()){
+        while (flagGaulois < ordreGaulois.size() && ordreMechant.size() > 0){
             Gaulois gauloisDevant = ordreGaulois.get(flagGaulois);
             Mechant mechantDevant = ordreMechant.last();
             ordreMechant.remove(mechantDevant);
