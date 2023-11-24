@@ -1,5 +1,6 @@
 package fr.valentinisis.asterix.classes.lieu;
 
+import fr.valentinisis.asterix.classes.personne.Mechant;
 import fr.valentinisis.asterix.classes.personne.Pirate;
 
 import java.security.InvalidParameterException;
@@ -36,8 +37,11 @@ public class Vaisseau implements ILieuMechant {
         return chaine;
     }
 
-    public Set<Pirate> getLesEquipiers() {
-        return lesEquipiers;
+    @Override
+    public Set<Mechant> getCombattants() {
+        Set<Mechant> combattants = new HashSet<>();
+        combattants.addAll(lesEquipiers);
+        return combattants;
     }
 
     public void setChef(Pirate chef) {
